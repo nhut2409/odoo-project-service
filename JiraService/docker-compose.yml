@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  jiraservice:
+    image: nhut2409/jiraservice
+    ports:
+      - 3000:3000

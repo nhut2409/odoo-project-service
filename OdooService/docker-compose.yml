@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  odooservice:
+    image: nhut2409/odooservice
+    ports:
+      - 5000:5000
